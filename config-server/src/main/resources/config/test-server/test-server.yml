@@ -1,0 +1,4 @@
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform: "postgres"
+spring.jpa.show-sql: "true"
+spring.datasource.validationQuery: "SELECT 1"

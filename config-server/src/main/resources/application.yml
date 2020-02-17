@@ -7,7 +7,9 @@ spring:
     config:
       server:
         native:
-          search-locations: /Users/honeybees/PROJ/spring/spring-cloud/config-server/src/main/resources/config/test-server
+          search-locations:
+            - /Users/honeybees/PROJ/spring/spring-cloud/config-server/src/main/resources/config/test-server
+            - /Users/honeybees/PROJ/spring/spring-cloud/config-server/src/main/resources/config/licensingservice
   application:
     name: configserver
 
